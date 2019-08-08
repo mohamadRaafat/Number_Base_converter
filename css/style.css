@@ -19,6 +19,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media all and (max-width: 920px) {
+  /* CSS rules here for screens lower than 920px */
+  body {
+    font-size: 0.8em;
+  }
+  }
 
 .css-input {
   padding: 0.250em;
