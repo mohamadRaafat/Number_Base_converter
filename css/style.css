@@ -22,7 +22,7 @@ body {
 @media all and (max-width: 920px) {
   /* CSS rules here for screens lower than 920px */
   body {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   }
 
