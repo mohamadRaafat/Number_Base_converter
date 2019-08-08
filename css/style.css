@@ -24,8 +24,10 @@ body {
   body {
     font-size: 0.8em;
   }
+ .container {
+    min-width: 80%;
   }
-
+  }
 .css-input {
   padding: 0.250em;
   font-size: 1.4em;
