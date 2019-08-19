@@ -9,18 +9,32 @@
     <title>Number_Base Converter</title>
 </head>
 <body>
+    <header>
+        <a class="test_link" href="./test.html">Test Yourself</a>
+    </header>
+
     <div class = "container">
         <h3>Input the number to be converted</h3>
         <br/>
         <input type="text" class="css-input" maxlength="32" required/>
-        <a href="#" class="butn" id="bth">Binary to Hexadecimal</a>
-        <a href="#" class="butn" id="btd">Binary to Denary </a>
-        <a href="#" class="butn" id="htb">Hexadecimal to Binary</a>
-        <a href="#" class="butn" id="htd">Hexadecimal to Denary</a>
-        <a href="#" class="butn" id="dtb">Denary to Binary</a>
-        <a href="#" class="butn" id="dth">Denary to Hexadecimal</a>
-
+        <div class="btn-info-container">
+            <a href="#" class="butn" id="bth">Binary to Hexadecimal</a><span data-type='bth' class="info info-bth"> &#9432;</span>
+        </div>
+        <div class="btn-info-container">
+            <a href="#" class="butn" id="btd">Binary to Denary </a><span data-type='btd' class="info info-btd">&#9432;</span>
+        </div>
+        <div class="btn-info-container">
+            <a href="#" class="butn" id="htb">Hexadecimal to Binary</a><span data-type='htb' class="info info-htb">&#9432;</span>
+        </div>
+        <div class="btn-info-container">
+            <a href="#" class="butn" id="htd">Hexadecimal to Denary</a><span data-type=htd class="info info-htd">&#9432;</span>
+        </div>
+        <div class="btn-info-container">
+            <a href="#" class="butn" id="dtb">Denary to Binary</a><span data-type='dtb' class="info info-dtb">&#9432;</span>
+        </div>
+        <div class="btn-info-container">
+            <a href="#" class="butn" id="dth">Denary to Hexadecimal</a><span data-type='dth' class="info info-dth">&#9432;</span>
+        </div>
     </div>
-    
-<script type="text/javascript" src="js/bundle.js"></script></body>
+<script type="text/javascript" src="js/index.js"></script></body>
 </html>
