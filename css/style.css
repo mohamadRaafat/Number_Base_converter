@@ -24,9 +24,15 @@ body {
   body {
     font-size: 0.8em;
   }
+  h3 {
+    font-size: 2.0em;
+  }
  .container {
     min-width: 80%;
   }
+  .info {
+    font-size: 1.2em;
+}
   }
 .css-input {
   padding: 0.250em;
