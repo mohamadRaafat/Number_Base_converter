@@ -31,7 +31,8 @@ body {
     min-width: 80%;
   }
   .info {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    top:0.35em;
 }
   }
 .css-input {
