@@ -245,7 +245,7 @@ tr:nth-child(even) {
     min-width: 80%;
   }
   .info {
-    font-size: 0.8em;
+    font-size: 1.5em;
     top:0.39em;
   }
 }
